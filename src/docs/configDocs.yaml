@@ -6,17 +6,17 @@ configuration:
     branch: main
     directory: '/src/docs'
   documents:
-    - path: nintendo
+    - path: '/nintendo'
       name: nintendo
       file: './nintendo.yaml'
       default: true
-    - path: nintendo-2
+    - path: '/nintendo-2'
       name: nintendo-two
       file: './shopify.yaml'
-    - path: nintendo-3
+    - path: '/nintendo-3'
       name: nintendo-tree
       file: './nintendo.yaml'
-    - path: nintendo-4
+    - path: '/nintendo-4'
       name: nintendo-four
       file: './shopify.yaml'
     
