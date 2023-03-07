@@ -1,0 +1,22 @@
+configuration:
+  origin:
+    type: github
+    directory: 'src/platforms'
+    id-report: xxxxXXXXXxxxx
+    headers: 
+      private-token: xxXXxxxXXXxxxxXXXX
+  documents:
+    - path: nintendo
+      name: nintendo
+      file: './nintendo'
+      default: true
+    - path: nintendo-2
+      name: nintendo-dos
+      file: './nintendo'
+    - path: nintendo-3
+      name: nintendo-tres
+      file: './nintendo'
+    - path: nintendo-4
+      name: nintendo-four
+      file: './nintendo'
+    
