@@ -1,22 +1,22 @@
+# Template for GITHUB
 configuration:
   origin:
     type: github
-    directory: 'src/platforms'
-    id-report: xxxxXXXXXxxxx
-    headers: 
-      private-token: xxXXxxxXXXxxxxXXXX
+    urlBase: https://raw.githubusercontent.com/meiserBGamboa/public-docs-yaml
+    branch: main
+    directory: '/src/docs'
   documents:
     - path: nintendo
       name: nintendo
-      file: './nintendo'
+      file: './nintendo.yaml'
       default: true
     - path: nintendo-2
-      name: nintendo-dos
-      file: './nintendo'
+      name: nintendo-two
+      file: './shopify.yaml'
     - path: nintendo-3
-      name: nintendo-tres
-      file: './nintendo'
+      name: nintendo-tree
+      file: './nintendo.yaml'
     - path: nintendo-4
       name: nintendo-four
-      file: './nintendo'
+      file: './shopify.yaml'
     
